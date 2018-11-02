@@ -1,0 +1,86 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0332fe65134386d6a0a01129eac05970",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "colinodell/json5",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/colinodell/json5.git",
+                "reference": "9b9318dc5b27b38c6347f69bdd6295f87c7cd356"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/colinodell/json5/zipball/9b9318dc5b27b38c6347f69bdd6295f87c7cd356",
+                "reference": "9b9318dc5b27b38c6347f69bdd6295f87c7cd356",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^5.4.8|^7.0"
+            },
+            "require-dev": {
+                "mikehaertl/php-shellcommand": "^1.2.5",
+                "phpunit/phpunit": "^4.8.36|^7.3",
+                "squizlabs/php_codesniffer": "^2.3",
+                "symfony/finder": "^2.8|^3.4|^4.1"
+            },
+            "bin": [
+                "bin/json5"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ColinODell\\Json5\\": "src"
+                },
+                "files": [
+                    "src/global.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "UTF-8 compatible JSON5 parser for PHP",
+            "homepage": "https://github.com/colinodell/json5",
+            "keywords": [
+                "JSON5",
+                "json",
+                "json5_decode",
+                "json_decode"
+            ],
+            "time": "2018-09-20T16:05:01+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 7.2",
+        "php-64bit": ">= 7.2",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}

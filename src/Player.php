@@ -7,7 +7,7 @@ class Player
 {
     use SafeAccessor;
 
-    public static function convert(?array $json, ?array $playerType): array
+    public static function convert(?array $json, ?array $playerType): ?array
     {
         if (!$json) {
             return null;

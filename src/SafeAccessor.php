@@ -5,7 +5,7 @@ namespace jp3cki\statink\salmonconv;
 
 trait SafeAccessor
 {
-    public static function getString(array $json, string $key): ?string
+    public static function getString(?array $json, string $key): ?string
     {
         $value = $json[$key] ?? null;
         if ($value === null || !is_scalar($value)) {
@@ -16,7 +16,7 @@ trait SafeAccessor
         return ($value === '') ? null : $value;
     }
 
-    public static function getInteger(array $json, string $key): ?int
+    public static function getInteger(?array $json, string $key): ?int
     {
         $value = static::getString($json, $key);
         if ($value === null) {

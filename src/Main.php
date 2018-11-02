@@ -20,7 +20,7 @@ class Main
             ),
             'clear_waves' => ($json['job_result']['is_clear'] ?? null)
                 ? 3
-                : count($json['wave_details'] - 1),
+                : count($json['wave_details']) - 1,
             'danger_rate' => static::getString($json, 'danger_rate'),
             'fail_reason' => $json['job_result']['failure_reason'] ?? null,
             'my_data' => Player::convert(

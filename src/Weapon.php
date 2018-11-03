@@ -35,7 +35,9 @@ class Weapon
             case 1110: return 'hokusai';
             case 2000: return 'squiclean_a';
             case 2010: return 'splatcharger';
+            case 2020: return 'splatscope';
             case 2030: return 'liter4k';
+            case 2040: return 'liter4k_scope';
             case 2050: return 'bamboo14mk1';
             case 2060: return 'soytuber';
             case 3000: return 'bucketslosher';
